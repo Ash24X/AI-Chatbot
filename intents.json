@@ -1,0 +1,38 @@
+{"intents":  [
+  {"tag": "greetings",
+  "patterns":  ["hello", "hey", "hi", "good day", "Greetings", "what's up?", "How is it going?"],
+   "responses": ["Hello!, my name is Alex from Neural Pharma", "Hey!, my name is Alex from Neural Pharma", "Hello!, I'm Alex. What can I do for you?"]
+  },
+  {"tag": "goodbye",
+  "patterns":  ["cya", "See you later", "Goodbye", "I am leaving", "Bye Alex"],
+   "responses": ["Bye, have a great day!", "Bye, I hope our conversation was informative"]
+  },
+  {"tag": "Hours Of Operation",
+  "patterns":  ["When are you guys open?", "What are your hours of Operation?", "What time do you close?"],
+   "responses": ["Neural Pharma is open from 9am to 5pm on weekdays, and 9am to 2pm on weekends"]
+  },
+  {"tag": "Drugs",
+  "patterns":  ["What products do you have available?", "What drugs are currently in stock?", "I'd like to buy something", "What do you recommend?"],
+   "responses": ["We currently have Humira, Atorvastatin(20mg), and Metformin(500mg) available in the pharmacy"]
+  },
+  {"tag": "Prices",
+  "patterns":  ["What is the price?", "How expensive are the drugs?", "How much do the products cost?", "How much money do I have to pay?"],
+   "responses": ["Humira is $40 per Humira Pen. Atorvastatin is $11 for a supply of 15 tablets. Metformin is $11 for a supply of 14 tablets. "]
+  },
+  {"tag": "promotions, sales, and packages",
+  "patterns":  ["Are there any promotions?", "Are there any sales?", "Are there any deals on the product?","deals", "packages"],
+   "responses": ["Currently, there is a sale on Metformin. With a purchase of two bottles(28 tablets), the third bottle is free."]
+  },
+  {"tag": "Humira Eligibility",
+  "patterns":  ["When should I take Humira?", "Is Humira right for me?", "Do you recommend that I take Humira?"],
+   "responses": ["If you believe you're suffering from Rheumatoid Arthritis, then Humira may be the drug for you. Humira lessens pain, swelling, and joint stiffness associated with Arthritis"]
+  },
+  {"tag": "Atorvastatin Eligibility",
+  "patterns":  ["When should I take Atorvastatin?", "Is Atorvastatin right for me?", "Do you recommend that I take Atorvastatin?"],
+   "responses": ["If you're suffering from high cholesterol levels, then Atorvastatin may be right for you. Atorvastatin is a HMG-CoA reductase inhibitor which decreases cholesterol build-up in the arteries."]
+  },
+  {"tag": "Metformin Eligibility",
+  "patterns":  ["When should I take Metformin?", "Is Metformin right for me?", "Do you recommend that I take Metformin?"],
+   "responses": ["If you're suffering from high blood glucose levels associated with type 2 diabetes, then Metformin may work for you. Metformin reduces the amount of sugar produced in the liver and released into your bloodstream. "]
+  }
+]}
